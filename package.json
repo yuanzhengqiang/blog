@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sudo ./deploy.sh"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.0.3"
+  },
+  "dependencies": {
+    "markdown-it-katex": "^2.0.3"
+  }
+}
