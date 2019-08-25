@@ -15,9 +15,10 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: a8bfea01371f651b000f2f769bb8f5101f707173
+  github-token: 75ceceaa18b577537df38bbd8bfbb9bc0e4e3024
   local-dir: ./docs/.vuepress/dist/ ## 根据情况自定义到静态文件输出目录
   target-branch: gh-pages
   verbose: true
   on:
     branch: master
+    
