@@ -4,24 +4,20 @@ node_js:
 
 cache:
   directories:
-    - "node_modules"
-
-branches:
-  only:
-    - master
-
+  - node_modules
+  yarn: true
+before_install:
+- export TZ='Asia/Hangzhou'  # 设置时区
 install:
-  - npm install
-  - npm run build
-
+- yarn
 script:
-  - ./deploy.sh
-
-# deploy:
-#   provider: pages
-#   skip-cleanup: true
-#   github-token: $GITHUB_ACCESS_TOKEN  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
-#   target-branch: gh-pages
-#   local-dir: .vuepress/dist
-#   on:
-branch: master
+- yarn build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 0b6a6aa0e58d7f606bf387ae79e30ba2a547ce27
+  local-dir: ./docs/.vuepress/dist/ ## 根据情况自定义到静态文件输出目录
+  target-branch: gh-pages
+  verbose: true
+  on:
+    branch: master
