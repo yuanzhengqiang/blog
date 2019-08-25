@@ -20,7 +20,7 @@ after_success:
     - git config --global user.email "yuanzhengqiangchn@gmail.com"
     - git add -A
     - git commit -m 'deploy'
-    - git push --quiet --force "https://75ceceaa18b577537df38bbd8bfbb9bc0e4e3024@github.com/yuanzhengqiang/blog.git" master:gh-pages
+    - git push --quiet --force "https://${token}@github.com/yuanzhengqiang/blog.git" master:gh-pages
 branches:
   only:
     - master
