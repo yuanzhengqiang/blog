@@ -12,13 +12,15 @@ install:
 - yarn
 script:
 - yarn build
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: 75ceceaa18b577537df38bbd8bfbb9bc0e4e3024
-  local-dir: ./docs/.vuepress/dist/ ## 根据情况自定义到静态文件输出目录
-  target-branch: gh-pages
-  verbose: true
-  on:
-    branch: master
-    
+
+after_success:
+    - cd docs/.vuepress/dist
+    - git init
+    - git config --global user.name "yuanzhengqiang"
+    - git config --global user.email "yuanzhengqiangchn@gmail.com"
+    - git add -A
+    - git commit -m 'deploy'
+    - git push --quiet --force "https://75ceceaa18b577537df38bbd8bfbb9bc0e4e3024@github.com/yuanzhengqiang/blog.git" master:gh-pages
+branches:
+  only:
+    - master
