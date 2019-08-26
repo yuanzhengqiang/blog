@@ -25,7 +25,8 @@ module.exports = {
             title: 'JS',
             children: [
               ['/blog/基础/JS/包装对象', '包装对象'],
-              ['/blog/基础/JS/JS-内存机制', '内存机制'],
+              ['/blog/基础/JS/内存机制', '内存机制'],
+              ['/blog/基础/JS/词法环境', '词法环境'],
             ]
           },
           {
