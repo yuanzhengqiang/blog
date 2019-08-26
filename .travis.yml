@@ -9,9 +9,9 @@ cache:
 before_install:
 - export TZ='Asia/Hangzhou'  # 设置时区
 install:
-- yarn
+- npm i
 script:
-- yarn build
+- npm run build
 
 after_success:
     - cd docs/.vuepress/dist
