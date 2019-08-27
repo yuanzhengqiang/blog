@@ -140,3 +140,6 @@ X-XSS-Protection 响应头是Internet Explorer，Chrome和Safari的一个功能�
 ```js
 X-XSS-Protection: 1; mode=block  # 启用XSS过滤。如果检测到 XSS 攻击，浏览器将不会清除页面，而是阻止页面加载。
 ```
+
+
+<Valine></Valine>

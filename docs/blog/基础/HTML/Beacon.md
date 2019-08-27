@@ -34,3 +34,5 @@ if (navigator.sendBeacon) {
  // 使用 XHR同步请求
 }
 ```
+
+<Valine></Valine>

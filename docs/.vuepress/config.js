@@ -158,5 +158,13 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir: './components'
+      }
+    ]
+  ]
 }
