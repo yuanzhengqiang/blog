@@ -1,7 +1,7 @@
 module.exports = {
   title: '逆夏的博客',
   description: '凉风把枫叶吹红，冷言让强者成熟',
-  base: '/',
+  base: '/blog/',
   serviceWorker: true,
   themeConfig: {
     nav: [{
