@@ -1,12 +1,12 @@
 module.exports = {
   title: '逆夏的博客',
-  description: '逆夏的博客',
-  base: '/blog/',
+  description: '凉风把枫叶吹红，冷言让强者成熟',
+  base: '/',
   serviceWorker: true,
   themeConfig: {
     nav: [{
         text: '博客',
-        link: '/'
+        link: '/blog/引言/引言/'
       }, // 外部链接
       // 下拉列表
       {
@@ -18,6 +18,14 @@ module.exports = {
       }
     ],
     sidebar: [
+      {
+        title: '引言',
+        collapsable: false,
+        children: [
+          '/blog/引言/引言', '引言'
+        ]
+         
+      },
       {
         title: '基础',
         children: [
