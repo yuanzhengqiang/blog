@@ -5,7 +5,7 @@ lang: zh-CN
 heroText: 逆夏的博客
 heroImage: /logo.jpg 
 actionText: Let's Go
-actionLink: /blog/引言/引言/
+actionLink: /blog/引言/引言
 features:
 - title: A Blog
   details: 专注整理前端博客，记录日常所得。

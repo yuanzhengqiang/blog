@@ -6,7 +6,7 @@ module.exports = {
   themeConfig: {
     nav: [{
         text: '博客',
-        link: '/blog/引言/引言/'
+        link: '/blog/引言/引言'
       }, // 外部链接
       // 下拉列表
       {
