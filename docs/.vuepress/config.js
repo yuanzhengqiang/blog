@@ -145,6 +145,17 @@ module.exports = {
         ]
       },
       {
+        title: '缓存',
+        children: [
+          {
+            title: 'CPU缓存',
+            children: [
+              ['/blog/缓存/CPU缓存', 'CPU缓存']
+            ]
+          }
+        ]
+      },
+      {
         title: '构建',
         children: [
           {
