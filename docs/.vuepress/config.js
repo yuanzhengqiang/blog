@@ -148,9 +148,11 @@ module.exports = {
         title: '缓存',
         children: [
           {
-            title: 'CPU缓存',
+            title: '缓存',
             children: [
-              ['/blog/缓存/CPU缓存', 'CPU缓存']
+              ['/blog/缓存/CPU缓存', 'CPU缓存'],
+              ['/blog/缓存/HTTP缓存', 'HTTP缓存'],
+              ['/blog/缓存/浏览器缓存', '浏览器缓存']
             ]
           }
         ]
