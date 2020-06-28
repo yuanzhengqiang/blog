@@ -40,6 +40,12 @@ module.exports = {
               ['/blog/基础/HTML/link标签', 'link标签'],
               ['/blog/基础/HTML/Beacon', 'API-Beacon']
             ]
+          },
+          {
+            title: 'Git',
+            children: [
+              ['/blog/基础/Git/git-基础', 'git基础']
+            ]
           }
         ]
       },
