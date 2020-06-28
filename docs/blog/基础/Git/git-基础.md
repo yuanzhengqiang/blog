@@ -58,7 +58,7 @@
 
 
 
-在这样的情况下，Git 会询问你想要保留哪种选择？假设在这两个分支中，我们都编辑了 README.md 的第一行。这篇推荐看下：[Git 高级用法](http://mp.weixin.qq.com/s?__biz=MzI3ODcxMzQzMw==&mid=2247492774&idx=2&sn=03f21483fba7b3f238ceb1c8817a3196&chksm=eb506190dc27e886612cc17e0c635562b78663fd5104de229d64bf5d8e4a541c6ffc0082cbcd&scene=21#wechat_redirect)。
+在这样的情况下，Git 会询问你想要保留哪种选择？假设在这两个分支中，我们都编辑了 README.md 的第一行。
 
 ![img](./image/git3.png)
 
