@@ -320,7 +320,7 @@ TCP 的连接的关闭需要发送四个包，因此称为**四次挥手**(Four-
 
 在"TCP slow start"中，在收到初始包之后, 服务器会将下一个包的大小加倍到大约28kb。 后续的包依次是前一个包大小的二倍直到达到预定的阈值，或者遇到拥塞。
 
-![TCP-handshake](/Users/yuanzhengqiang/test/blog/docs/blog/网络/协议/tcp/TCP-handshake.jpg)
+![TCP-handshake](./tcp/TCP-handshake.jpg)
 
 如果您听说过初始页面加载的14Kb规则，TCP慢开始就是初始响应为14Kb的原因，也是为什么web性能优化需要将此初始14Kb响应作为优化重点的原因。TCP慢开始逐渐建立适合网络能力的传输速度，以避免拥塞。
 
