@@ -186,7 +186,18 @@ module.exports = {
             ]
           }
         ]
-      }
+      },
+      {
+        title: '设计模式',
+        children: [
+          {
+            title: '设计模式',
+            children: [
+              ['/blog/设计模式/单例模式', '单例模式']
+            ]
+          }
+        ]
+      },
     ]
   },
   plugins: [
