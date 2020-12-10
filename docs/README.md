@@ -12,6 +12,6 @@ features:
 - title: For Me
   details: 一定不要让自己觉得很舒服，因为只有下楼时才不会觉得累，只有下坡时才不用踩油门。
 - title: For Interview
-  details: 杭州，已入坑ღ( ´･ᴗ･` )
+  details: 杭州，欢迎来撩
 footer: Copyright © 2019-present yuanzhengqiang
 ---
