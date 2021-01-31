@@ -32,6 +32,7 @@ module.exports = {
               ['/blog/基础/JS/内存机制', '内存机制'],
               ['/blog/基础/JS/词法环境', '词法环境'],
               ['/blog/基础/JS/事件循环', '事件循环'],
+              ['/blog/基础/JS/new', 'new与构造函数'],
               ['/blog/基础/JS/Arguments对象', 'Arguments对象'],
             ]
           },
