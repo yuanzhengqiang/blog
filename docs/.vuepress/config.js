@@ -34,7 +34,7 @@ module.exports = {
               ['/blog/基础/JS/事件循环', '事件循环'],
               ['/blog/基础/JS/new与构造函数', 'new与构造函数'],
               ['/blog/基础/JS/Arguments对象', 'Arguments对象'],
-              ['/blog/基础/JS/Promise', 'Promise'],
+              ['/blog/基础/JS/Promise', 'Promise源码实现'],
             ]
           },
           {
