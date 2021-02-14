@@ -58,7 +58,8 @@ module.exports = {
           {
             title: 'Vue',
             children: [
-              ['/blog/框架/Vue/vue-router源码解析', 'vue-router源码解析']
+              ['/blog/框架/Vue/vue-router源码解析', 'vue-router源码解析'],
+              ['/blog/框架/Vue/常见面试题', '常见面试题']
             ]
           }
         ]
