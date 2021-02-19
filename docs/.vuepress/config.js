@@ -49,6 +49,12 @@ module.exports = {
             children: [
               ['/blog/基础/Git/git-基础', 'git基础']
             ]
+          },
+          {
+            title: 'TS',
+            children: [
+              ['/blog/基础/TS/常见面试题', '常见面试题']
+            ]
           }
         ]
       },
