@@ -35,6 +35,7 @@ module.exports = {
               ['/blog/基础/JS/new与构造函数', 'new与构造函数'],
               ['/blog/基础/JS/Arguments对象', 'Arguments对象'],
               ['/blog/基础/JS/Promise', 'Promise源码实现'],
+              ['/blog/基础/JS/函数柯里化', '函数柯里化'],
             ]
           },
           {
